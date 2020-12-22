@@ -1,6 +1,11 @@
-<div *ngFor="let crib of cribs">
-    <h3> {{ crib.address }} </h3>
-    <h4> {{ crib.price }} </h4>
-    <p> {{ crib.type }} </p>
-</div>
 
+<div class="row"> 
+<div *ngFor="let crib of cribs" class="col-sm-4" >
+    <div class="img-thumbnail">
+        <img src="../../assets/images/{{crib.image}}.jpg" alt="" style="width: 100%"/>
+        <h3> {{ crib.address }} </h3>
+        <h4> {{ crib.price }} </h4>
+        <p> {{ crib.type }} </p>
+    </div>
+</div>
+</div>
