@@ -1,4 +1,4 @@
-export const cribs = [
+[
     {
         "id": 1,
         "type": "Condo",
@@ -66,4 +66,4 @@ export const cribs = [
         "image": "crib-6"
     }
 
-];
+]
